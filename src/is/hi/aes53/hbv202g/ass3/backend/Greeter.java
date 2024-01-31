@@ -1,3 +1,5 @@
+package is.hi.aes53.hbv202g.ass3.backend;
+
 public class Greeter {
 
     private Language language = Language.ENGLISH;
@@ -12,12 +14,12 @@ public class Greeter {
 
     public String greet() {
         switch (language) {
-        case ENGLISH:
-            return "Hello world!";
-        case GERMAN:
-            return "Hallo Welt!";
-        default:
-            return "UNKOWN LANGUAGE";
+            case ENGLISH:
+                return "Hello world!";
+            case GERMAN:
+                return "Hallo Welt!";
+            default:
+                return "UNKOWN LANGUAGE";
         }
     }
 }
